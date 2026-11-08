@@ -108,12 +108,26 @@ footer {
     font-size: 14px;
 }
 
+.placeholder {
+    background-color: #e3dbd3;
+    color: #8b5e3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    }
+
+.gallery .placeholder {
+    height: 150px;
+    border-radius: 8px;
+    }
+
 </style>
 </head>
 <body>
 
     <header>
-        <img src="photo.jpg" alt="Фото" class="avatar">
+        <div class="avatar placeholder">Ваше фото</div>
         <h1>Ваше имя</h1>
         <p>Ваша профессия. Коротко о том, чем вы занимаетесь..</p>
     <nav>
@@ -126,16 +140,16 @@ footer {
     </header>
 
     <section id="about">
-        <h2>Обо мне.</h2>
+        <h2>Обо мне</h2>
         <p>Расскажите о себе и о своем опыте в двух-трёх предложениях.</p>
     </section>
 
     <section id="works">
         <h2>Мои работы</h2>
         <div class="gallery">
-            <img src="work1.jpg" alt="Работа 1">
-            <img src="work2.jpg" alt="Работа 2">
-            <img src="work3.jpg" alt="Работа 3">
+            <div class="placeholder">Фото 1</div>
+            <div class="placeholder">Фото 2</div>
+            <div class="placeholder">Фото 3</div>
         </div>
     </section >
 
